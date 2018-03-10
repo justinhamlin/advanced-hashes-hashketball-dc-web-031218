@@ -127,11 +127,9 @@ def game_hash
     
   end
 
-def good_practices
+def num_points_scored(name)
   game_hash.each do |location, team_data|
-    #are you ABSOLUTELY SURE what 'location' and 'team data' are? use binding.pry to find out!
-    
-      team_data.each do |attribute, data|
+    team_data.each do |attribute, data|
         #are you ABSOLUTELY SURE what 'attribute' and 'team data' are? use binding.pry to find out!
         
  
