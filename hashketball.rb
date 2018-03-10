@@ -141,7 +141,7 @@ def num_points_scored(name)
 end
 
 binding.pry
-good_practices
+num_points_scored
 
 
 
