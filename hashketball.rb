@@ -130,6 +130,7 @@ def game_hash
 def num_points_scored
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
+      if attribute ==
       data.each do |stat, result|
        
           
