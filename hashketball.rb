@@ -145,7 +145,7 @@ def good_practices
   end
 end
 
-binding.pry
+
 good_practices
 
 
